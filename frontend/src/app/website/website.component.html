@@ -1,0 +1,22 @@
+<h1>Productos</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>
+            Descripción
+        </th>
+        <th>
+            Costo
+        </th>
+
+    </tr>
+    <tr *ngFor="let item of posts" >
+        <td>
+            {{item.descripcion}}
+        </td>
+        <td>
+            {{item.costo}}
+        </td>
+    </tr>
+
+</table>
